@@ -37,6 +37,10 @@ namespace MatulloEsercitazioneApp
 
         private void btnTempoInMinuti_Click(object sender, RoutedEventArgs e)
         {
+            string nome = txtNome.Text;
+            string città = txtCittà.Text;
+
+            string tempoinminuti = maratone.CercaTempo(nome, città);
 
         }
     }

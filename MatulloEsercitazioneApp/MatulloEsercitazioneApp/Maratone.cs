@@ -56,8 +56,28 @@ namespace MatulloEsercitazioneApp
 
         }
 
+        public  string CercaTempo(string nome, string città)
+        {
+            string Tempo = "";
+            foreach (var maratona in ElencoMaratone)
+            {
 
-        public 
+                if (maratona.NomeAtleta == nome)
+                {
+                    Tempo = maratona.Tempo;
+                }
+
+
+            }
+
+
+            return Tempo;
+        }
+
+
+
+
+        
 
 
 
