@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MatulloEsercitazioneApp/1.0.0": {
+        "runtime": {
+          "MatulloEsercitazioneApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatulloEsercitazioneApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
