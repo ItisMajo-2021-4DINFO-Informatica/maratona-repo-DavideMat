@@ -10,7 +10,24 @@ namespace MatulloEsercitazioneApp
     {
         public string NomeAtleta { get; set; }
         public string Società { get; set; }
-        public string Tempo { get; set; }
+        public int Tempo { get; set; }
         public string Città { get; set; }
+
+
+
+
+        public int TrovaTempo(string Tempo )
+        {
+
+            int minuti = 0;
+
+            int ore = int.Parse(Tempo.Substring(0, 1));
+            int minutiParziali = int.Parse(Tempo.Substring(3, 2));
+            minuti = (ore *60) + minutiParziali;
+
+            return minuti;
+
+
+        }
     }
 }

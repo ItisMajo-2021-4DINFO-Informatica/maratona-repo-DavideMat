@@ -40,7 +40,7 @@ namespace MatulloEsercitazioneApp
                         Maratona maratona = new Maratona();
                         maratona.NomeAtleta = campi[0];
                         maratona.Società = campi[1];
-                        maratona.Tempo = campi[2];
+                        maratona.Tempo = maratona.TrovaTempo(campi[2]);
                         maratona.Città = campi[3];
 
                         Aggiungi(maratona);
@@ -56,37 +56,53 @@ namespace MatulloEsercitazioneApp
 
         }
 
-        public  string CercaTempo(string nome, string città)
+        public int CercaTempo(string nome, string città)
         {
-            string Tempo = "";
+            int tempo = 0;
             foreach (var maratona in ElencoMaratone)
             {
 
-                if (maratona.NomeAtleta == nome)
+                if (maratona.NomeAtleta == nome && maratona.Città == città)
                 {
-                    Tempo = maratona.Tempo;
+                    
+                    tempo = maratona.Tempo;
+                    
                 }
 
 
             }
 
 
-            return Tempo;
+            return tempo;
         }
 
 
 
 
-        
 
 
 
+        public  string AtltetiPartecipanti(string città)
+        {
+
+            string NomiAtleti = "";
+
+
+            foreach (var maratona in ElencoMaratone)
+            {
+
+                if(maratona.Città == città)
+                {
+                    NomiAtleti += maratona.NomeAtleta + "  ";
+                }
+
+
+            }
 
 
 
-
-
-
+            return NomiAtleti;
+        }
 
     }
 }

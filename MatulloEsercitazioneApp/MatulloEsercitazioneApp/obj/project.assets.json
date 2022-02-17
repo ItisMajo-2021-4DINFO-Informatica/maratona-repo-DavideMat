@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\GitHub\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\maratona-repo-DavideMat\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp.csproj",
       "projectName": "MatulloEsercitazioneApp",
-      "projectPath": "C:\\Users\\Utente\\Desktop\\GitHub\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp.csproj",
+      "projectPath": "C:\\Users\\Utente\\Desktop\\maratona-repo-DavideMat\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Desktop\\GitHub\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Desktop\\maratona-repo-DavideMat\\MatulloEsercitazioneApp\\MatulloEsercitazioneApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

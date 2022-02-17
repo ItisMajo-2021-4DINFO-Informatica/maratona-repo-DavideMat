@@ -40,7 +40,20 @@ namespace MatulloEsercitazioneApp
             string nome = txtNome.Text;
             string città = txtCittà.Text;
 
-            string tempoinminuti = maratone.CercaTempo(nome, città);
+            int Tempo = maratone.CercaTempo(nome, città);
+            lblTempoInminuti.Content = Tempo;
+
+        }
+
+        private void btnTrovaPersone_Click(object sender, RoutedEventArgs e)
+        {
+
+            string città = txtCittàInserita.Text;
+
+            string ElecoPartecipanti = maratone.AtltetiPartecipanti(città);
+
+            
+            lblCittàPArtecipanti.Content = ElecoPartecipanti;
 
         }
     }

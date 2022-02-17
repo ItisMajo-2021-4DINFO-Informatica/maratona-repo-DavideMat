@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatulloEsercitazioneApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800">
+        Title="MainWindow" Height="950" Width="800">
     <StackPanel>
         <DataGrid x:Name="dgElenco" Height="300"></DataGrid>
 
@@ -21,6 +21,19 @@
         <Label x:Name="lblTempoInminuti" Margin="10"/>
 
         <Button x:Name="btnTempoInMinuti" Content="Trova il tempo in minuti" Margin="10" Click="btnTempoInMinuti_Click"/>
+
+
+        <Label x:Name="lblPartecipantiChiesti" Margin="10" Content="Inserisci La città"/>
+
+        <TextBox x:Name="txtCittàInserita" Margin=" 10" ></TextBox>
+
+
+        <Label x:Name="lblCittàPArtecipanti" Margin="10" />
+        <Button x:Name="btnTrovaPersone" Content="Trtova Atleti" Margin="10" Click="btnTrovaPersone_Click"/>
+
+
+
+
 
 
     </StackPanel>
